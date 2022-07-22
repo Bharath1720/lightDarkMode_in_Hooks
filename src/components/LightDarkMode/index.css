@@ -1,0 +1,41 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.black {
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+}
+.white {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+h1 {
+  margin: 15px;
+  padding: 5px;
+}
+button {
+  margin: 15px;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
